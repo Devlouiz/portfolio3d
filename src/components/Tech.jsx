@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 import { technologies } from "../constants";
+import { sass } from "../assets";
 import { SectionWrapper } from "../hoc";
 
 import allIcons from "simple-icons";
@@ -58,7 +59,7 @@ const Tech = () => {
   }
   const iconSlugs = [
     "wordpress","nextdotjs","visualstudiocode","tailwindcss","react","html5","javascript",
-    "github","git","figma","docker"
+    "github","git","figma","docker","sass"
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,

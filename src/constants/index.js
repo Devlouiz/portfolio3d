@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  freelance,
+  kenrow,
+  sass,
+  elementor,
 } from "../assets";
 
 export const navLinks = [
@@ -50,13 +54,9 @@ const services = [
     icon: mobile,
   },
   {
-    title: "UI Designer",
-    icon: backend,
-  },
-  {
-    title: "Wordpress Developer",
+    title: "Wordpress Designer",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -100,49 +100,51 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "elementor",
+    icon: elementor,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "Kenrow Digital Marketing Agency",
+    icon: kenrow,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Developer & Wordpress Designer",
+    company_name: "Upwork, Fiverr & LinkedIn(freelancing)",
+    icon: freelance,
+    iconBg: "#E6DEDD",
+    date: "2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A freelancer Wordpress Designer on Upwork crafting visually stunning and responsive website seamlessly intergrating Wordpress for diverse client requirement."
     ],
   },
   {
+    title: "Junior Construction Supervisor",
+    company_name: "Kemailz Consult(Small-Scale Construction Firm)",
+    //icon: "",//shopify,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Feb 2023",
+    points: [
+      "Successfully executed various construction tasks including (deliveries of construction materials)",
+      "Collaborated with the Contract engineer, Bricklayer and Ironworker for timely project completion within planned budget"
+    ],
+  },
+  /*{
     title: "Full stack Developer",
     company_name: "Meta",
     icon: meta,
@@ -154,7 +156,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  },*/
 ];
 
 const testimonials = [

@@ -21,11 +21,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import sass from "./tech/sass.png";
+import elementor from "./tech/elementor.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import freelance from "./company/freelance.png";
+import kenrow from "./company/kenrow.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -61,4 +65,8 @@ export {
   jobit,
   tripguide,
   devlouis,
+  freelance,
+  kenrow,
+  sass,
+  elementor,
 };
