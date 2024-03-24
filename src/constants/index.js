@@ -27,6 +27,9 @@ import {
   kenrow,
   sass,
   elementor,
+  aisum,
+  kenrowshot,
+  internet,
 } from "../assets";
 
 export const navLinks = [
@@ -144,19 +147,6 @@ const experiences = [
       "Collaborated with the Contract engineer, Bricklayer and Ironworker for timely project completion within planned budget"
     ],
   },
-  /*{
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },*/
 ];
 
 const testimonials = [
@@ -188,16 +178,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SummBuddy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows users to summarize lengthy article or blog post with AI simply by providing the url link to the article or post",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
@@ -205,13 +195,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: aisum,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Kenrow DMA",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Kenrow Digital Marketing Agency, your comprehensive solution for a dynamic online presence, empowering your business to navigate the digital landscape with unparalleled speed and precision.",
     tags: [
       {
         name: "react",
@@ -226,24 +216,24 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: kenrowshot,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Quiz Wiz",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "leveraging the use open trivia robust api to create an interactive Quiz App.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "open trivia API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],

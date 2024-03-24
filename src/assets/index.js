@@ -29,11 +29,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelance from "./company/freelance.png";
-import kenrow from "./company/kenrow.png";
 
+import kenrow from "./company/kenrow.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aisum from "./aisumscreenshot.png";
+import kenrowshot from "./kenrowscreenshot.png";
+import internet from "./internet.png";
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   kenrow,
   sass,
   elementor,
+  aisum,
+  kenrowshot,
+  internet,
 };

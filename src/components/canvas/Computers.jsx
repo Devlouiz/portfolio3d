@@ -20,7 +20,7 @@ const Computers = (isMobile) =>{
       <primitive
       object={computer.scene}
       scale={isMobile ? 0.6 : 0.7}
-      position={isMobile ? [0, -3.3, -1.5] : [0, -3.5, -1.0]}
+      position={isMobile ? [0, -3.3, -2.0] : [0, -3.5, -1.0]}
       rotation={[-0.01, -0.2, -0.1]}/>
     </mesh>
   )
@@ -54,6 +54,7 @@ const ComputersCanvas= () =>{
     }
   }, []);
   return(
+    <div className="h-[800px] w-full">
     <Canvas 
     frameloop="demand"
     shadows
@@ -69,6 +70,7 @@ const ComputersCanvas= () =>{
       </Suspense>
       <Preload all/>
     </Canvas>
+    </div>
   )
 }
 
