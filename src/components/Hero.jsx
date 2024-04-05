@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import { useTypewriter,Cursor } from "react-simple-typewriter";
+import Manlaptop from "../assets/manlaptop.json"
+import Lottie from "lottie-react";
+import { mysocials } from "../constants";
 
 const Hero = () => {
   const [text] = useTypewriter({
@@ -12,9 +15,9 @@ const Hero = () => {
     deleteSpeed : 80
   });
   return (
-    <section className="relative w-full h-[800px] 
+    <section className="relative w-full h-full 
     mx-auto ">
-      <div className={`${styles.paddingX} absolute inset-0
+      <div className={`${styles.paddingX} relative
        top-[110px] max-w-7xl mx-auto flex flex-row items-start
        gap-5 `}>
         <div className="flex flex-col justify-center
@@ -24,24 +27,38 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}
-          text-white`}>
+          text-primary2`}>
             Hi, I'm Louis a &nbsp;
             <br />
             <span className="text-[#1a8ab4]">
                {text}
             </span>
-            <Cursor/>
+            <Cursor cursorColor="black"/>
           </h1>
           <p className={`${styles.heroSubText} 
-          mt-2 text-white-100`}>
+          mt-2 text-primary2`}>
             I develop user interfaces, web <br 
             className="sm:block hidden"/> 
             applications and 3D visuals
           </p>
+        <div className="flex gap-5 text-black my-5">
+          {
+            mysocials.map((item,index) => (
+              <a href={item.source_code_link} key={index}>
+                <img src={item.image} alt="socials" className="w-[35px] h-[35px]"/>
+              </a>
+            ))
+          }
+        </div>
         </div>
       </div>
-      <ComputersCanvas/>
-      <div className="absolute xs:bottom-10  bottom-32
+      <div className="w-full flex justify-center h-2/3 items-center mt-[120px] sm:mt-[120px]">
+        <div className="w-[600px]">
+          <Lottie animationData={Manlaptop}/>
+        </div>
+      </div>
+      {/*<ComputersCanvas/>*/}
+      <div className=" xs:bottom-10  bottom-32 mt-5
         w-full flex justify-center items-center">
           <a href="#about">
             <div className="w-[35px] h-[64px]

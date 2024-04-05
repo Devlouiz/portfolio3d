@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon}) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
       variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px]
+      className="w-full rounded-[20px]
       shadow-card">
         <div options={{
           max: 45,
@@ -39,7 +39,7 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)}
-      className="mt-4 text-secondary text-[17px]
+      className="mt-4 text-tertiary text-[17px]
       max-w-3xl leading-[30px]">
         I'm a skilled software developer with experience in 
         JavaScript, and expertise in React framework. I'm a quick learner and 

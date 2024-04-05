@@ -66,8 +66,8 @@ const Tech = () => {
     simpleIcon: allIcons.Get(slug)
   }))
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h2 className={styles.heroHeadText}>Tech Stack</h2>
+    <div className="flex flex-col items-center justify-center bg-tertiary rounded-2xl">
+      <h2 className={`${styles.heroHeadText} text-white-100 `}>Tech Stack</h2>
       <IconCloud
       key={v4()}
       id={"icon"}

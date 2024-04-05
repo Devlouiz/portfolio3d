@@ -30,6 +30,10 @@ import {
   aisum,
   kenrowshot,
   internet,
+  linkedinme,
+  emailme,
+  quizwiz,
+  githubblack
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +50,21 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+const mysocials =[
+  {
+    image: githubblack,
+    source_code_link: "https://github.com/Devlouiz",
+  },
+  {
+    image: linkedinme,
+    source_code_link: "https://www.linkedin.com/in/louis-onyedikachi-8557651b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_meduim=android_app",
+  },
+  {
+    image: emailme,
+    source_code_link: "mailto:louisonyedi@gmail.com",
+  }
+]
 
 const services = [
   {
@@ -196,7 +215,7 @@ const projects = [
       },
     ],
     image: aisum,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Devlouiz/AI-SummarizerApp",
   },
   {
     name: "Kenrow DMA",
@@ -217,7 +236,7 @@ const projects = [
       },
     ],
     image: kenrowshot,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.kenrow.online/",
   },
   {
     name: "Quiz Wiz",
@@ -237,9 +256,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: quizwiz,
+    source_code_link: "https://github.com/Devlouiz/QuizWiz",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, mysocials };

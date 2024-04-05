@@ -29,6 +29,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID)
 
     emailjs
       .send(
@@ -70,8 +71,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={`${styles.sectionSubText} text-[#eff1ff]`}>Get in touch</p>
+        <h3 className={`${styles.sectionHeadText} text-white-100`}>Contact.</h3>
 
         <form
           ref={formRef}

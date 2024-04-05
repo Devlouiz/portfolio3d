@@ -37,6 +37,10 @@ import tripguide from "./tripguide.png";
 import aisum from "./aisumscreenshot.png";
 import kenrowshot from "./kenrowscreenshot.png";
 import internet from "./internet.png";
+import linkedinme from "./linkedinme.png";
+import emailme from "./emailme.png";
+import githubblack from "./githubblack.jpg";
+import quizwiz from "./quizwiz2.png";
 
 export {
   logo,
@@ -75,4 +79,8 @@ export {
   aisum,
   kenrowshot,
   internet,
+  linkedinme,
+  emailme,
+  githubblack,
+  quizwiz
 };
