@@ -33,13 +33,14 @@ import {
   linkedinme,
   emailme,
   quizwiz,
-  githubblack
+  githubblack,
+  ecommerce
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "about",
-    title: "About",
+    id: "service",
+    title: "Service",
   },
   {
     id: "work",
@@ -78,7 +79,11 @@ const services = [
   {
     title: "Wordpress Designer",
     icon: creator,
-  }
+  },
+  {
+    title: "Junior Construction Engineer",
+    icon: mobile,
+  },
 ];
 
 const technologies = [
@@ -258,6 +263,27 @@ const projects = [
     ],
     image: quizwiz,
     source_code_link: "https://github.com/Devlouiz/QuizWiz",
+  },
+  {
+    name: "LoudKicks",
+    description:
+      "With the help of Sanity.io's headless CMS , I was able to develop a simple ecommerce system intergrated with Paystack payment gateway API",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sanity headless CMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://ecommerce-test-liard-mu.vercel.app",
   },
 ];
 

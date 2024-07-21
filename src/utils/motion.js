@@ -1,3 +1,5 @@
+import { delay } from "framer-motion";
+
 export const textVariant = (delay) => {
     return {
       hidden: {
@@ -87,3 +89,16 @@ export const textVariant = (delay) => {
     };
   };
   
+
+  export const animatedArrows = {
+    initial: { opacity: 0.5, x: 0},
+    animate: (i) =>({
+      x: [0, 10, 0],
+      opacity: [0.5, 1, 0.5],
+      transition: {
+        duration: 1,
+        repeat: Infinity,
+        delay: 1 * 0.2,
+      }
+    })
+  }

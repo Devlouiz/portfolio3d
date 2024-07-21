@@ -31,21 +31,21 @@ const ServiceCard = ({ index, title, icon}) => {
   )
 }
 
-const About = () => {
+const Service = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>Introduction</p>
-        <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
+        <p className={`${styles.sectionSubText}`}>Best Fit</p>
+        <h2 className={`${styles.sectionHeadText}`}>Expertise.</h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)}
       className="mt-4 text-tertiary text-[17px]
       max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in 
-        JavaScript, and expertise in React framework. I'm a quick learner and 
-        collaborate closely with clients and my team to create efficient,
-        scalable, and  user-friendly solutions that solve real-
-        world problems. Let's work together to bring your ideas to life
+          With a good foundation in civil engineering and a passion for web
+          development, I'm excited to explore opportunities that combine my technical
+          skills and creative flair. Whether it's building innovative web applications with
+          Reactjs, designing engaging Wordpress websites, or leveraging my engineering 
+          problem-solving skills to drive digital solutions, I'm eager to contribute.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) =>(
@@ -57,4 +57,4 @@ const About = () => {
   )
 }
 //export default About
-export default SectionWrapper(About, "about")
+export default SectionWrapper(Service, "service")

@@ -22,6 +22,20 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      perspective: {
+        '1000': '1000px',
+      },
+      backfaceVisibility: {
+        'hidden': 'hidden',
+      },
+      transform: {
+        'rotateY-180': 'rotateY(180deg)',
+      },
+    },
+  },
+  variants:{
+    extends:{
+      backfaceVisibility: ['hover', 'focus'],
     },
   },
   plugins: [],

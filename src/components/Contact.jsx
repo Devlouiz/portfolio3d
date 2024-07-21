@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import message from "../assets/message.json";
+import Lottie from "lottie-react";
 
 const Contact = () => {
   const [form , setForm] = useState({
@@ -124,11 +126,12 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:w-[80%] mx-auto'
       >
-        <EarthCanvas />
+        <Lottie animationData={message}/>
+        {/*<EarthCanvas />*/}
       </motion.div>
     </div>
   )
 }
-export default SectionWrapper(Contact, 'Contact')
+export default SectionWrapper(Contact, 'contact')

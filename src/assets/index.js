@@ -41,6 +41,8 @@ import linkedinme from "./linkedinme.png";
 import emailme from "./emailme.png";
 import githubblack from "./githubblack.jpg";
 import quizwiz from "./quizwiz2.png";
+import louis from "./louis.jpg";
+import ecommerce from "./ecommerce.png";
 
 export {
   logo,
@@ -82,5 +84,7 @@ export {
   linkedinme,
   emailme,
   githubblack,
-  quizwiz
+  quizwiz,
+  louis,
+  ecommerce
 };
