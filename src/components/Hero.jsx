@@ -5,6 +5,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { mysocials } from "../constants";
 import { louis } from "../assets";
 import FlippableImage from "./FlippableImage";
+import myResume from "../assets/louis_onyedikachi-Resumé.pdf";
 
 const Hero = ({ handleFlip, isFlipped}) => {
   const [text] = useTypewriter({
@@ -58,6 +59,8 @@ const Hero = ({ handleFlip, isFlipped}) => {
                   />
                 </a>
               ))}
+              <a href={myResume} download="louis_onyedikachi-Resumé.docx"
+              className="flex align-middle p-1 text-white bg-black rounded-md">Download CV</a>
             </div>
           </div>
         </div>
