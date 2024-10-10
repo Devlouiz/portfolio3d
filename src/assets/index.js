@@ -43,6 +43,7 @@ import githubblack from "./githubblack.jpg";
 import quizwiz from "./quizwiz2.png";
 import louis from "./louis.jpg";
 import ecommerce from "./ecommerce.png";
+import shades from "./shades.png";
 
 export {
   logo,
@@ -86,5 +87,6 @@ export {
   githubblack,
   quizwiz,
   louis,
-  ecommerce
+  ecommerce,
+  shades
 };

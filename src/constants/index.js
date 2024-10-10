@@ -34,7 +34,8 @@ import {
   emailme,
   quizwiz,
   githubblack,
-  ecommerce
+  ecommerce,
+  shades
 } from "../assets";
 
 export const navLinks = [
@@ -284,6 +285,27 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://ecommerce-test-liard-mu.vercel.app",
+  },
+  {
+    name: "Shades of Elegance",
+    description:
+      "Using WordPress Robust CMS , I was able to develop and design an Airport Taxi and Car Rentals website intergrated with a booking management system",
+    tags: [
+      {
+        name: "WordPress CMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Advanced Custom Fields",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SEO",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shades,
+    source_code_link: "https://shadesofelegance.ng",
   },
 ];
 
