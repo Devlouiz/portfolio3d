@@ -140,25 +140,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Kenrow Digital Marketing Agency",
-    icon: kenrow,
-    iconBg: "#E6DEDD",
-    date: "2024 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      
-    ],
-  },
-  {
-    title: "Software Developer & Wordpress Designer",
-    company_name: "Upwork, Fiverr & LinkedIn(freelancing)",
+    title: "Web Developer",
+    company_name: "Freelancing",
     icon: freelance,
     iconBg: "#E6DEDD",
     date: "2020 - Present",
     points: [
-      "A freelancer Wordpress Designer on Upwork crafting visually stunning and responsive website seamlessly intergrating Wordpress for diverse client requirement."
+      "A freelancer Software Developer and  Wordpress Designer crafting visually stunning and responsive website seamlessly intergrating Wordpress for diverse client requirement."
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Kenrow Digital Marketing Agency",
+    icon: kenrow,
+    iconBg: "#E6DEDD",
+    date: "Feb 2024 - Jul 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      
     ],
   },
   {
