@@ -287,7 +287,7 @@ const projects = [
     source_code_link: "https://ecommerce-test-liard-mu.vercel.app",
   },
   {
-    name: "Shades of Elegance",
+    name: "Shades of Elegance LTD",
     description:
       "Using WordPress Robust CMS , I was able to develop and design an Airport Taxi and Car Rentals website intergrated with a booking management system",
     tags: [

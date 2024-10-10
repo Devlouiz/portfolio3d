@@ -20,6 +20,7 @@
     "@mui/material": "^5.14.13",
     "@react-three/drei": "^9.82.0",
     "@react-three/fiber": "^8.14.1",
+    "caniuse-lite": "^1.0.30001667",
     "framer-motion": "^10.16.0",
     "lottie-react": "^2.4.0",
     "maath": "^0.7.0",
